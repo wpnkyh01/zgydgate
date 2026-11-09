@@ -9,8 +9,7 @@ name: VPN Gate Node Check
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-      timezone: 'Asia/Tokyo'
+    - cron: '0 15,3 * * *'
   workflow_dispatch:
     inputs:
       max_nodes:
